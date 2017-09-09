@@ -63,7 +63,7 @@ a {
 }
  .column.large {
     width: 630px;
-     display: flex;
+     display: inline-flex;
      flex-direction: column;     
   }
 
@@ -130,8 +130,16 @@ a {
 
   }
 
+.sub-stories {
+    display: flex;
+    justify-content: space-between;
+}
 
-
+.story{
+display: flex;
+flex-direction: column;
+    width: 300px;
+}
   .cookie{
       width: 240px;
       
